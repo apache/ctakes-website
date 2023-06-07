@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  source "https://rubygems.org"
+  specs:
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+gem "jekyll"
+gem "jekyll-paginate"
+
+BUNDLED WITH
+   2.4.13
