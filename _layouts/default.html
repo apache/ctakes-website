@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="{{ '/assets/images/ctakes_logo.jpg' | relative_url }}" alt="Logo">
+    </div>
+    <h1 class="site-title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+    <nav>
+        <ul class="navigation">
+            <li><a href="/intro/">Introduction</a></li>
+            <li><a href="/wiki/">Ctakes Wiki</a></li>
+            <li><a href="/download/">Downloads</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<main>
+    <div class="content">
+        {{ content }}
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,77 @@
+.site-title {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 3.5rem; /* Adjust the font size as needed */
+  font-family: "Arial", sans-serif; /* Replace with your desired font */
+}
+
+.title {
+  text-align: center; /* Adjust the margin as needed */
+  margin: 30px auto;
+  max-width: 1390px; /* Adjust the maximum width as needed */
+  margin-left: 20px; /* Move the title slightly to the left */
+}
+
+.title h2 {
+  font-size: 2rem; /* Adjust the font size as needed */
+}
+
+.centered-paragraph {
+  text-align: center;
+  margin: 50px auto; /* Adjust the margin as needed */
+  max-width: 800px; /* Adjust the maximum width as needed */
+  font-size: 1.25rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 0; /* Add padding to the top and bottom */
+  border-top: 2px solid black; /* Border on top */
+  border-bottom: 2px solid black; /* Border on bottom */
+  margin: 0 auto; /* Center the navigation menu */
+  max-width: 620px; /* Adjust the maximum width as needed */
+}
+
+.navigation li {
+  margin: 0 1rem;
+  position: relative;
+}
+
+.navigation li a {
+  text-decoration: none; /* Remove underline */
+  font-size: 1.2rem; /* Adjust the font size as needed */
+  color: #006994; /* Change the color to blue */
+  font-family: "Arial", sans-serif;
+}
+
+.navigation li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 16px); /* Position lines outside the links */
+  transform: translateY(-50%);
+  height: calc(160% - 8px); /* Adjust the height of the lines */
+  width: 2px;
+  background-color: black; /* Line color */
+  font-weight: bold; /* Make the lines bold */
+}
+
+
+
+.logo {
+  text-align: center;
+  margin-top: 60px; /* Adjust the margin-top value as needed */
+}
+
+.logo img {
+  max-width: 150px; /* Adjust the size of the logo as needed */
+}
