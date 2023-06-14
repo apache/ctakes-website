@@ -1,8 +1,9 @@
 .site-title {
   text-align: center;
-  padding: 0.5rem;
   font-size: 3.5rem; /* Adjust the font size as needed */
   font-family: "Arial", sans-serif; /* Replace with your desired font */
+  margin-top: 15px;
+  margin-bottom: 0;
 }
 
 .title {
@@ -41,6 +42,26 @@
   max-width: 620px; /* Adjust the maximum width as needed */
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+
+.footer li {
+  margin: 0 1rem;
+  position: relative;
+}
+
+.footer li a {
+  text-decoration: none; /* Remove underline */
+  font-size: 1.2rem; /* Adjust the font size as needed */
+  color: #006994; /* Change the color to blue */
+  font-family: "Arial", sans-serif;
+}
+
 .navigation li {
   margin: 0 1rem;
   position: relative;
@@ -65,13 +86,36 @@
   font-weight: bold; /* Make the lines bold */
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dfebec; /* Replace with your desired light gray color */
+}
 
+.container {
+  background-color: #9fc4c6;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .logo {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
-  margin-top: 60px; /* Adjust the margin-top value as needed */
 }
 
 .logo img {
-  max-width: 150px; /* Adjust the size of the logo as needed */
+  max-width: 100%;
+  height: 7.5rem;
+}
+
+.support-image img{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  height: auto;
 }
