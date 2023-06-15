@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction
-permalink: /intro/
+permalink: https://apache.github.io/ctakes-website/intro/
 ---
 
 <div class="centered-paragraph">
