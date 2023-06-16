@@ -39,7 +39,7 @@
   border-top: 2px solid black; /* Border on top */
   border-bottom: 2px solid black; /* Border on bottom */
   margin: 0 auto; /* Center the navigation menu */
-  max-width: 620px; /* Adjust the maximum width as needed */
+  max-width: 820px; /* Adjust the maximum width as needed */
 }
 
 .footer {
