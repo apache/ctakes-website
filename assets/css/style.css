@@ -58,7 +58,7 @@
 .footer li a {
   text-decoration: none; /* Remove underline */
   font-size: 1.2rem; /* Adjust the font size as needed */
-  color: #006994; /* Change the color to blue */
+  color: #192A51; /* Change the color to blue */
   font-family: "Arial", sans-serif;
 }
 
@@ -70,7 +70,7 @@
 .navigation li a {
   text-decoration: none; /* Remove underline */
   font-size: 1.2rem; /* Adjust the font size as needed */
-  color: #192A51; /* Change the color to blue */
+  color: #192A51;
   font-family: "Arial", sans-serif;
 }
 
