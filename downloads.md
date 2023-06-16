@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Downloads
-permalink: https://apache.github.io/ctakes-website/downloads
+permalink: /downloads
 ---
 
 <div class="center-table-container">
