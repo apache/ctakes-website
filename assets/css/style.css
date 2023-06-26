@@ -62,6 +62,13 @@ body {
   flex-grow: 1;
 }
 
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .footer li {
   margin: 0 1rem;
   position: relative;
