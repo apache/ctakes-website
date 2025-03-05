@@ -36,3 +36,11 @@ notifications:
   pullrequests: commits@ctakes.apache.org
   issues: dev@ctakes.apache.org
   discussions: dev@ctakes.apache.org
+
+# Staging and publishing profile for yourproject-website.git:
+staging:
+  profile: ~
+  whoami:  asf-staging
+
+publish:
+  whoami:  asf-site
