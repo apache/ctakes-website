@@ -11,21 +11,40 @@ html, body {
     flex-direction: column;
 }
 
-.main-link {
-    display: inline-block;
-    background-color: #007bff; /* Button color */
-    color: white; /* Text color */
-    font-size: 1.2rem;
-    padding: 12px 20px;
-    border-radius: 5px; /* Rounded corners */
-    text-decoration: none;
+.landing-page {
+    width: 80%; /* Increase width to take up more space */
+    max-width: 900px; /* Limit width on larger screens */
+    margin: 40px auto; /* Center it with top/bottom spacing */
+    padding: 30px; /* Increase padding for a bigger feel */
+    text-align: center; /* Keep text centered */
+    flex: 1;
+}
+
+.landing-page h1 {
+    font-size: 36px; /* Increase heading size */
     font-weight: bold;
-    transition: background 0.3s ease;
+}
+
+.landing-page p {
+    font-size: 20px; /* Increase paragraph size */
+    line-height: 1.6; /* Improve readability */
+}
+
+.main-link {
+    display: inline-block; /* Make it a button-like block */
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: #007bff; /* Apache blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
 }
 
 .main-link:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
 }
+
 
 
 .navbar ul {
@@ -37,7 +56,7 @@ html, body {
 
 .navbar li {
     display: inline;
-    margin: 10px;''
+    margin: 10px;
 }
 
 .navbar a {
@@ -48,12 +67,6 @@ html, body {
 
 .navbar a:hover {
     text-decoration: underline;
-}
-
-.landing-page {
-    max-width: 600px;
-    margin: 20px auto;
-    flex: 1;
 }
 
 
@@ -75,8 +88,9 @@ footer {
 }
 
 .branding img {
-    width: 450px; /* Adjust width as needed */
+    width: 400px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
+
 }
 
 .footer-img {
