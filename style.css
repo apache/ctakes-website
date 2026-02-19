@@ -98,3 +98,78 @@ footer {
     height: auto; /* Maintain aspect ratio */
     float: right;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+
+    body {
+        padding: 20px;
+    }
+
+    .landing-page {
+        width: 95%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .landing-page h1 {
+        font-size: 28px;
+    }
+
+    .landing-page p {
+        font-size: 16px;
+    }
+
+    /* Stack navbar items vertically */
+    .navbar {
+        margin-left: 0;
+    }
+
+    .navbar li {
+        display: block;
+        margin: 8px 0;
+    }
+
+    /* Reset footer alignment */
+    footer p {
+        margin-left: 0;
+        padding: 0 10px;
+    }
+
+    .branding img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .footer-img {
+        float: none;
+        display: inline-block;
+        width: 80px;
+        margin: 10px;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .landing-page h1 {
+        font-size: 24px;
+    }
+
+    .landing-page p {
+        font-size: 14px;
+    }
+
+    .main-link {
+        font-size: 16px;
+        padding: 12px 18px;
+    }
+
+    .footer-img {
+        width: 60px;
+    }
+}
