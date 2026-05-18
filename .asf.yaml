@@ -31,6 +31,19 @@ github:
     - processing
     - apache
 
+  rulesets:
+    - name: "Default Branch Protection"
+      type: branch
+      branches:
+        includes:
+          - "~DEFAULT_BRANCH"
+          - "release/*"
+          - "rel/*"
+        excludes: []
+      bypass_teams:
+        - root
+      restrict_deletion: true
+      restrict_force_push: true
 notifications:
   commits: commits@ctakes.apache.org
   pullrequests: commits@ctakes.apache.org
@@ -39,8 +52,8 @@ notifications:
 
 # Staging and publishing profile for yourproject-website.git:
 staging:
-  profile: ~
-  whoami:  asf-staging
+  profile:
+  whoami: asf-staging
 
 publish:
-  whoami:  asf-site
+  whoami: asf-site
